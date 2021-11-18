@@ -1,26 +1,19 @@
-import React from "react";
-import {
-  BrowserRouter,
-  //Routes,
-  //Route,
-  useRoutes,
-} from "react-router-dom";
-import HomePage from "./pages/HomePage.jsx";
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header';
+import HomePage from './pages/HomePage';
 
 
-const App = () => {
-  let routes = useRoutes([
-    { path: "/", element: <HomePage /> },
-  ]);
-  return routes;
-};
-
-const AppWrapper = () => {
+function App() {
   return (
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <div>
+      <Header />
+      <main>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+        </Routes>
+      </main>
+    </div>
   );
-};
+}
 
-export default AppWrapper;
+export default App;

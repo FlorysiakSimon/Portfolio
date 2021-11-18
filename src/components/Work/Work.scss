@@ -1,0 +1,44 @@
+.projet {
+  padding: 1em;
+  border-radius: 25px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+
+  &Card {
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 230px;
+    height: 340px;
+    border-radius: 10px;
+  }
+  &Link {
+    overflow: hidden;
+  }
+  &Img {
+    width: 230px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &Title {
+    bottom: 60px;
+    left: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  &Description {
+    left: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}
