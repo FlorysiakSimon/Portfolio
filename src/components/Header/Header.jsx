@@ -7,11 +7,11 @@ export default function Header() {
         <header>
             <NavLink to='/'>
                 <div className="animated">
-                    <h1 className="animatedTitle">simon florysiak</h1>
+                    <h1 className="animatedTitle">simon f.</h1>
                 </div>
             </NavLink>
             <nav>
-                <NavLink to='/'>Works</NavLink>
+                <NavLink to='/works'>Works</NavLink>
                 <NavLink to='/'>CV</NavLink>
             </nav>
         </header>

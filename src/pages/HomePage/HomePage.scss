@@ -1,0 +1,117 @@
+main {
+  max-width: 1024px;
+  padding: 20 0px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  &Title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    &Text {
+      font-size: 16px;
+      text-align: center;
+    }
+    &Photo img {
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #ffffffeb;
+    }
+  }
+  &Bio img {
+    width: 250px;
+    object-fit: cover;
+    height: 100px;
+  }
+}
+
+.hide {
+  position: absolute;
+  color: #202023;
+}
+
+/* btn */
+.btn {
+  text-align: center;
+  margin-top: 1.5em;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  background-color: wheat;
+  padding: 15px 0px;
+  width: 150px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.btn.effect {
+  transition: all 0.2s linear 0s;
+
+  &:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+  }
+
+  &:hover {
+    text-indent: -20px;
+
+    &:before {
+      opacity: 1;
+      text-indent: 0px;
+    }
+  }
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* KEYFRAMES */
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(+25px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.containerTitle {
+  animation: appear 450ms ease-in-out 1;
+}

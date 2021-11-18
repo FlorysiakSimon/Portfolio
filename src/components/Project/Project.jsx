@@ -1,9 +1,9 @@
 import React from 'react'
 import {projets} from "../../data/data.js"
 import { NavLink } from 'react-router-dom'
-import './Work.scss'
+import './Project.scss'
 
-export default function Work() {
+export default function Project() {
     return (
         <section className="projet">
             {projets.map((projet,index) => {
