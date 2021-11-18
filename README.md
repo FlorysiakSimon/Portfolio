@@ -2,7 +2,7 @@
 
 ## Stack
 
-- [React](https://fr.reactjs.org/) -
+- [React](https://fr.reactjs.org/)
 - [React-router-dom](https://reactrouter.com/web/guides/quick-start)
 - [Sass](https://sass-lang.com/)
 - [React three fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
