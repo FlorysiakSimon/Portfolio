@@ -8,6 +8,7 @@
 
 body {
   background-color: #202023;
-  padding: 1rem;
+  padding: 0rem 1rem;
+  margin-top: 0;
   color: #ffffffeb;
 }
