@@ -1,13 +1,16 @@
 main {
   max-width: 1024px;
-  padding: 20 0px;
   margin: 0 auto;
 }
 
 .container {
-  margin: 0 auto;
-  display: grid;
+  margin: 13.7em auto;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   grid-gap: 1rem;
+  position: relative;
   &Title {
     display: flex;
     flex-direction: column;
@@ -85,17 +88,52 @@ main {
     }
   }
 }
+/* LINK FONT AWESOME */
+.link {
+  text-decoration: none;
+  padding: 0 20px;
+  color: inherit;
+  font-size: 25px;
+}
 
-/* Screen larger than 600px? 2 column */
-@media (min-width: 600px) {
+.gitLink {
+  &:before {
+    content: "\f09b";
+    font-family: FontAwesome;
+  }
+}
+.linkedinLink {
+  &:before {
+    content: "\f08c";
+    font-family: FontAwesome;
+  }
+}
+.mail {
+  &:before {
+    content: "\f199";
+    font-family: FontAwesome;
+  }
+}
+
+a span {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+/* Screen smaller than 600px */
+@media (max-width: 600px) {
   .container {
+    margin: 1em auto;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-/* Screen larger than 900px? 3 columns */
-@media (min-width: 900px) {
+/* Screen smaller than 900px */
+@media (max-width: 900px) {
   .container {
+    margin: 1em auto;
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -112,6 +150,6 @@ main {
   }
 }
 
-.containerTitle {
+.container {
   animation: appear 450ms ease-in-out 1;
 }

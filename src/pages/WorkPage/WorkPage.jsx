@@ -4,7 +4,7 @@ import Project from '../../components/Project/Project'
 
 export default function WorkPage() {
     return (
-        <div>
+        <div className="work">
             <Project />
         </div>
     )

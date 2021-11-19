@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import HomePage from './pages/HomePage/HomePage';
 import WorkPage from './pages/WorkPage/WorkPage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path='/works' element={<WorkPage />} />
         </Routes>
       </main>
-     
+     <Footer/>
     </div>
   );
 }

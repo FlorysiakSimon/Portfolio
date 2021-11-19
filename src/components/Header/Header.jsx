@@ -12,7 +12,7 @@ export default function Header() {
             </NavLink>
             <nav>
                 <NavLink to='/works'>Works</NavLink>
-                <NavLink to='/'>CV</NavLink>
+                <NavLink to='/resume.pdf' target="_blank">CV</NavLink>
             </nav>
         </header>
     )

@@ -1,13 +1,16 @@
 header {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
   max-width: 1024px;
   margin: 0 auto 5em;
-  background-color: #202023;
+  background-color: #20202380;
   color: #ffffffeb;
+  z-index: 1;
+  backdrop-filter: blur(10px);
   a {
     color: #ffffffeb;
     text-decoration: none;
