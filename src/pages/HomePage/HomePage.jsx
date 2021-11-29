@@ -18,7 +18,7 @@ export default function HomePage() {
                     <h2>Hi, my name is
                         Simon Florysiak.
                     </h2>
-                    <p>I'm a Front-end developer</p>
+                    <p>I'm a Front-end developer.</p>
                 </div>
                 <a className="btn effect" href="/works" title="Learn More">My Portfolio</a>
             </div>
@@ -28,6 +28,9 @@ export default function HomePage() {
                 <a href="mailto:simon.florysiak@gmail.com" className="link mail" ><span>mail</span></a>
             </div>
         </div>
+
+
+        
         </>
     )
 }

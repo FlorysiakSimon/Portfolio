@@ -19,6 +19,9 @@ main {
     &Text {
       font-size: 16px;
       text-align: center;
+      & h2 {
+        text-align: center;
+      }
     }
     &Photo img {
       position: relative;

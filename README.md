@@ -8,16 +8,19 @@
 - [React three fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 - [Three.js](https://threejs.org/)
 
-## Project structure
+## Installation
 
-```
-$PROJECT_ROOT
-│   # Page files
-├── pages
-│   # React component files
-├── components
-│   # Static files for images and 3d model file
-└── public
-```
+1. Clone this repository
+   ```sh
+   git clone https://github.com/FlorysiakSimon/FlorysiakSimon_14_22012021
+   ```
+2. Install NPM packages
+   ```sh
+   npm i
+   ```
+3. Run the project (port 3000 by default)
+   ```sh
+   npm start
+   ```
 
 ---
