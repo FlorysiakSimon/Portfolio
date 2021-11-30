@@ -1,6 +1,7 @@
 import React from 'react'
 import Torus from '../../components/Torus/Torus'
 import './HomePage.scss'
+import { NavLink } from 'react-router-dom';
 
 export default function HomePage() {
     return (
@@ -20,7 +21,7 @@ export default function HomePage() {
                     </h2>
                     <p>I'm a Front-end developer.</p>
                 </div>
-                <a className="btn effect" href="/works" title="Learn More">My Portfolio</a>
+                <NavLink className="btn effect" to='/works' title="Learn More">My Portfolio</NavLink>
             </div>
             <div className="containerContact">
                 <a href="https://github.com/FlorysiakSimon" className="link gitLink" ><span>github</span></a>
