@@ -8,8 +8,9 @@ export default function WorkPage() {
         
         <div className="work">
             <div>
-            {/* <Model /> */}
+             <Model /> 
             </div>
+            <h2>Works</h2>
             <Project />
         </div>
     )

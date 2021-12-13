@@ -14,7 +14,7 @@ function Box(props) {
       ref={ref}
       >
       <torusGeometry  args={[12, 2, 100, 100]} />
-      <meshStandardMaterial color={'#0074D9'} />
+      <meshStandardMaterial color={'#7389F4'} />
     </mesh>
   )
 }
@@ -22,7 +22,7 @@ function Box(props) {
 export default function Torus() {
   return (
     <Canvas style={{position:'fixed',top:'0', left:'0', height:'100%', width: '100%', marginTop: '1em'  }}>
-      <ambientLight intensity={0.6} />
+      <ambientLight intensity={1} />
       <spotLight position={[10, 10, 10]} angle={90} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />
       <Box position={[0, 0, -18]}  rotation={[-Math.PI * 0.20, Math.PI * 0.75, 0]} />
