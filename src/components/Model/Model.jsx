@@ -30,6 +30,7 @@ export default function Model() {
       <Canvas shadowMap style={{height:'600px', width: '90%',marginLeft:'3em', marginTop: '-120px',marginBottom:'-200px'  }} camera={{ position: [1.5, 1.5, 0.5] }}>
         <Suspense fallback={null}>
           <Load />
+          <pointLight position={[5, 5, 10]} />
           <ambientLight intensity={1}/>
         </Suspense>
     </Canvas>
