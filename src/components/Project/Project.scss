@@ -43,9 +43,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 5px;
     &Tag {
-      color: #ffffffeb;
+      color: var(--text);
       padding: 4px 2px;
-      border: 1px solid #fcb466;
+      border: 1px solid var(--primary);
       border-radius: 5px;
       display: inline-block;
       margin-right: 10px;

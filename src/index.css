@@ -2,13 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+:root {
+  --primary-color: #202023;
+  --text: #ffffffeb;
+}
+
+[data-theme="light"] {
+  --primary-color: #f0e7db;
+  --text: #1a202c;
+}
+
 * {
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 body {
-  background-color: #202023;
-  padding: 0rem 1rem;
-  margin-top: 0;
-  color: #ffffffeb;
+  background-color: var(--primary-color);
+  padding: 0rem;
+  margin: 0;
+  color: var(--text);
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }

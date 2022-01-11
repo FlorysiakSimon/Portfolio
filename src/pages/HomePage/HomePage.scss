@@ -1,10 +1,27 @@
+$orange: #fcb466;
+$black: #20202380;
+$white: #ffffffeb;
+
+:root {
+  --primary: #fcb466;
+  --secondary: #20202380;
+  --tertiary: #ffffffeb;
+}
+
+[data-theme="light"] {
+  --primary: #649dbf;
+  --secondary: #ffffff40;
+  --tertiary: #1a202c;
+}
+
 main {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0.5em;
 }
 
 .container {
-  margin: 13.7em auto;
+  margin: 12em auto;
   height: 100%;
   align-items: center;
   display: flex;
@@ -32,7 +49,16 @@ main {
       object-fit: cover;
       border-width: 2px;
       border-style: solid;
-      border-color: #ffffffeb;
+      border-color: white;
+    }
+    &Bio {
+      max-width: 500px;
+      text-align: justify;
+
+      //background-color: #20202380;
+      border-radius: 5px;
+      backdrop-filter: blur(10px);
+      padding: 1em;
     }
   }
   &Bio img {
@@ -56,7 +82,7 @@ main {
   text-decoration: none;
   color: black;
   text-transform: capitalize;
-  background-color: #fcb466;
+  background-color: var(--primary);
   padding: 15px 0px;
   width: 150px;
   border-radius: 6px;
@@ -98,7 +124,8 @@ main {
   color: inherit;
   font-size: 25px;
   &:hover {
-    color: #fcb466;
+    color: var(--primary);
+    transition: color 500ms ease-in-out;
   }
 }
 

@@ -2,7 +2,10 @@ import React, { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 //import { OrbitControls } from "@react-three/drei";
 
+
+
 function Box(props) {
+  
   // This reference gives us direct access to the THREE.Mesh object
   const ref = useRef()
   // Subscribe this component to the render-loop, rotate the mesh every frame
@@ -20,8 +23,10 @@ function Box(props) {
 }
 
 export default function Torus() {
+  
+  
   return (
-    <Canvas style={{position:'fixed',top:'0', left:'0', height:'100%', width: '100%', marginTop: '1em'  }}>
+    <Canvas style={{position:'fixed',top:'0', left:'0', height:'100%', width: '100%', marginTop: '1em',color:'red' }}>
       <ambientLight intensity={1} />
       <spotLight position={[10, 10, 10]} angle={90} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />

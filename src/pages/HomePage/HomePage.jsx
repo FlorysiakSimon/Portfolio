@@ -4,6 +4,7 @@ import './HomePage.scss'
 import { NavLink } from 'react-router-dom';
 
 export default function HomePage() {
+    
     return (
         <>
         <div id="3d">
@@ -16,12 +17,16 @@ export default function HomePage() {
                     <img src="/simon.jpg" alt="profile"></img>
                 </div>
                 <div className="containerTitleText">
-                    <h2>Hi, my name is
-                        Simon Florysiak.
+                    <h2>
+                        Simon Florysiak <br/>
+                        Développeur Front-end
                     </h2>
-                    <p>I'm a Front-end developer.</p>
+                    {/* <p className='containerTitleBio'>Diplômé en développement web, sérieux et avec le goût de la performance,
+                       je cherche une entreprise dans laquelle je pourrai m'investir et développer
+                       sans cesse mes connaissances
+                    </p> */}
                 </div>
-                <NavLink className="btn effect" to='/works' title="Learn More">My Portfolio</NavLink>
+                <NavLink className="btn effect" to='/works' title="Learn More">Mon Portfolio</NavLink>
             </div>
             <div className="containerContact">
                 <a href="https://github.com/FlorysiakSimon" className="link gitLink" ><span>github</span></a>
