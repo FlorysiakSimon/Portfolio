@@ -7,6 +7,7 @@
 - [Sass](https://sass-lang.com/)
 - [React three fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 - [Three.js](https://threejs.org/)
+- [framer-motion](https://www.framer.com/)
 
 ## Installation
 

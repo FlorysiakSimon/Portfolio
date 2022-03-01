@@ -1,5 +1,19 @@
 export const projets = [
 	{
+		title: 'E-commerce product page',
+		link:'https://github.com/FlorysiakSimon/E-commerce-product-page',
+		description:"E-commerce product page contenant un caroussel et la possibilité d'ajouté l'objet dans le panier",
+		tags:["React","SASS"],
+		picture:"https://raw.githubusercontent.com/FlorysiakSimon/E-commerce-product-page/main/design/desktop-design.jpg"
+	},
+	{
+		title: 'Ip address tracker',
+		link:'https://github.com/FlorysiakSimon/ip-adress-tracker',
+		description:"Tracker permettant de localiser quelqu'un en utilisant son address ip",
+		tags:["React","TypeScript","axios","React-leaflet","Ip-API","SASS"],
+		picture:"https://raw.githubusercontent.com/FlorysiakSimon/ip-adress-tracker/main/design/desktop-design.jpg"
+	},
+	{
 		title: 'Les petits plats',
 		link:'https://github.com/FlorysiakSimon/Les-petits-plats',
 		description: 'Algorithme de recherche en JavaScript pour un site de cuisine',
@@ -51,8 +65,16 @@ export const projets = [
 	{
 		title: 'rest-countries-api',
 		link:'https://github.com/FlorysiakSimon/rest-countries-api',
-		description:'REST Countries API avec un color theme switcher',
+		description:'REST Countries API avec un color theme switcher, search bar et options de filtrage des pays',
 		tags:["React","react-router","axios","api","SASS"],
 		picture:"https://raw.githubusercontent.com/FlorysiakSimon/rest-countries-api/main/design/desktop-preview.jpg"
 	},
+	{
+		title: 'starter-react-sass-router',
+		link:'https://github.com/FlorysiakSimon/starter-react-sass-router',
+		description:'starter create-react-app avec react-router et sass préinstallé',
+		tags:["React","react-router","SASS"],
+		picture:"https://developer.okta.com/assets-jekyll/blog/react-sass/sass-react-fa644d1094e108fd0fa40e95db30309192f80753927e7767d324ccfc58f8351e.png"
+	},
+	
 ];

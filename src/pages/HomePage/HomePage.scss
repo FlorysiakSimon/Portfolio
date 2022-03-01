@@ -173,16 +173,16 @@ a span {
 
 /* KEYFRAMES */
 
-@keyframes appear {
-  0% {
-    opacity: 0;
-    transform: translateY(+25px);
-  }
-  100% {
-    opacity: 1;
-  }
-}
+// @keyframes appear {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(+25px);
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
 
-.container {
-  animation: appear 450ms ease-in-out 1;
-}
+// .container {
+//   animation: appear 450ms ease-in-out 1;
+// }

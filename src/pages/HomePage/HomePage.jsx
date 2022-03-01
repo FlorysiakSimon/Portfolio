@@ -2,6 +2,7 @@ import React from 'react'
 import Torus from '../../components/Torus/Torus'
 import './HomePage.scss'
 import { NavLink } from 'react-router-dom';
+import { motion } from "framer-motion"
 
 export default function HomePage() {
     
@@ -11,7 +12,13 @@ export default function HomePage() {
             <Torus></Torus>
         </div>
         
-        <div className="container">
+        <motion.div 
+            Layout
+            animate={{ opacity: 1 , y:0}}
+            initial={{opacity:0, y:100}}
+            transition={{ ease: "easeIn", duration: 0.5 }}
+            className="container"
+        >
             <div className="containerTitle">
                 <div className="containerTitlePhoto" >
                     <img src="/simon.jpg" alt="profile"></img>
@@ -33,7 +40,7 @@ export default function HomePage() {
                 <a href="https://www.linkedin.com/in/simon-florysiak-782759143/" className="link linkedinLink" ><span>linkedin</span></a>
                 <a href="mailto:simon.florysiak@gmail.com" className="link mail" ><span>mail</span></a>
             </div>
-        </div>
+        </motion.div>
 
 
         
