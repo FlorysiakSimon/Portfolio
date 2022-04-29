@@ -1,5 +1,12 @@
 export const projets = [
 	{
+		title: 'Entertainment application',
+		link:'https://github.com/FlorysiakSimon/movie-app',
+		description:"MERN Stack movie application avec une interface de connexion et la possibilité d'ajouter des films dans une watchlist",
+		tags:["React","React-router","SASS","axios","api-rest","paginate","mongo","express","Node.js","JWT","nodemailer","multer"],
+		picture:"https://raw.githubusercontent.com/FlorysiakSimon/movie-app/main/public/images/desktop_app.png"
+	},
+	{
 		title: 'E-commerce product page',
 		link:'https://github.com/FlorysiakSimon/E-commerce-product-page',
 		description:"E-commerce product page contenant un caroussel et la possibilité d'ajouté l'objet dans le panier",
