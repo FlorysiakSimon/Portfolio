@@ -28,10 +28,6 @@ export default function HomePage() {
                         Simon Florysiak <br/>
                         Développeur Front-end
                     </h2>
-                    {/* <p className='containerTitleBio'>Diplômé en développement web, sérieux et avec le goût de la performance,
-                       je cherche une entreprise dans laquelle je pourrai m'investir et développer
-                       sans cesse mes connaissances
-                    </p> */}
                 </div>
                 <NavLink className="btn effect" to='/works' title="Learn More">Mon Portfolio</NavLink>
             </div>
