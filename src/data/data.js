@@ -7,18 +7,32 @@ export const projets = [
 		picture:"https://raw.githubusercontent.com/FlorysiakSimon/movie-app/main/public/images/desktop_app.png"
 	},
 	{
-		title: 'E-commerce product page',
-		link:'https://github.com/FlorysiakSimon/E-commerce-product-page',
-		description:"E-commerce product page contenant un caroussel et la possibilité d'ajouté l'objet dans le panier",
-		tags:["React","SASS"],
-		picture:"https://raw.githubusercontent.com/FlorysiakSimon/E-commerce-product-page/main/design/desktop-design.jpg"
-	},
-	{
 		title: 'Ip address tracker',
 		link:'https://github.com/FlorysiakSimon/ip-adress-tracker',
 		description:"Tracker permettant de localiser quelqu'un en utilisant son address ip",
 		tags:["React","TypeScript","axios","React-leaflet","Ip-API","SASS"],
 		picture:"https://raw.githubusercontent.com/FlorysiakSimon/ip-adress-tracker/main/design/desktop-design.jpg"
+	},
+	{
+		title: 'rest-countries-api',
+		link:'https://github.com/FlorysiakSimon/rest-countries-api',
+		description:'REST Countries API avec un color theme switcher, search bar et options de filtrage des pays',
+		tags:["React","react-router","axios","api","SASS"],
+		picture:"https://raw.githubusercontent.com/FlorysiakSimon/rest-countries-api/main/design/desktop-preview.jpg"
+	},
+	{
+		title: 'Todo-app',
+		link:'https://github.com/FlorysiakSimon/todo-app',
+		description:"Todo app avec système de filtre et theme switcher",
+		tags:["Next.js","Typescript","tailwind","next-themes","uuid"],
+		picture:"https://raw.githubusercontent.com/FlorysiakSimon/todo-app/main/design/desktop-preview.jpg"
+	},
+	{
+		title: 'E-commerce product page',
+		link:'https://github.com/FlorysiakSimon/E-commerce-product-page',
+		description:"E-commerce product page contenant un caroussel et la possibilité d'ajouté l'objet dans le panier",
+		tags:["React","SASS"],
+		picture:"https://raw.githubusercontent.com/FlorysiakSimon/E-commerce-product-page/main/design/desktop-design.jpg"
 	},
 	{
 		title: 'Les petits plats',
@@ -68,13 +82,6 @@ export const projets = [
 		description: "Création d'un composant React modal personnalisable sur npm",
 		tags: ["React","npm","JavaScript","Storybook","prop-types"],
 		picture: 'https://i.gyazo.com/af60767e0af9950f241cb9b8a56c9a47.png'
-	},
-	{
-		title: 'rest-countries-api',
-		link:'https://github.com/FlorysiakSimon/rest-countries-api',
-		description:'REST Countries API avec un color theme switcher, search bar et options de filtrage des pays',
-		tags:["React","react-router","axios","api","SASS"],
-		picture:"https://raw.githubusercontent.com/FlorysiakSimon/rest-countries-api/main/design/desktop-preview.jpg"
 	},
 	{
 		title: 'starter-react-sass-router',

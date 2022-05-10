@@ -62,9 +62,7 @@
     grid-template-columns: repeat(2, 1fr);
     &Card {
       width: auto;
-      height: 340px;
     }
-
     &Img {
       width: 100%;
     }
@@ -83,9 +81,6 @@
       width: 100%;
     }
   }
-}
-
-.tag {
 }
 
 @media screen and (max-width: 768px) {
